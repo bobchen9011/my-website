@@ -1,0 +1,22 @@
+{
+  "name": "my-website",
+  "version": "1.0.0",
+  "description": "A simple website built with pure code.",
+  "main": "src/server.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/server.ts"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0",
+    "@types/node": "^14.0.0",
+    "@types/express": "^4.17.8",
+    "ts-node": "^9.0.0"
+  },
+  "author": "Your Name",
+  "license": "ISC"
+}
