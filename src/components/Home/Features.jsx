@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useRef, useEffect } from 'react'
 import { 
   BoltIcon, 
@@ -6,32 +7,44 @@ import {
   CurrencyDollarIcon 
 } from '@heroicons/react/24/outline'
 
+=======
+>>>>>>> b90fe229192e6d6552bcac8e8652a02826418983
 const features = [
   {
     name: '快速交易配對',
     description: '平均3秒內完成交易配對，每日處理超過10,000筆交易',
     icon: BoltIcon,
+<<<<<<< HEAD
     color: 'from-yellow-400 to-orange-500',
     delay: '0.1s',
+=======
+>>>>>>> b90fe229192e6d6552bcac8e8652a02826418983
   },
   {
     name: '安全可靠',
     description: '採用先進加密技術，100%資金安全保障，零資安事件紀錄',
     icon: ShieldCheckIcon,
+<<<<<<< HEAD
     color: 'from-green-400 to-emerald-500',
     delay: '0.2s',
+=======
+>>>>>>> b90fe229192e6d6552bcac8e8652a02826418983
   },
   {
     name: '24/7 客戶支援',
     description: '專業客服團隊全天候服務，平均回應時間低於5分鐘',
     icon: ChatBubbleBottomCenterTextIcon,
+<<<<<<< HEAD
     color: 'from-blue-400 to-indigo-500',
     delay: '0.3s',
+=======
+>>>>>>> b90fe229192e6d6552bcac8e8652a02826418983
   },
   {
     name: '多樣化交易選擇',
     description: '支援超過50種加密貨幣交易對，滿足不同投資需求',
     icon: CurrencyDollarIcon,
+<<<<<<< HEAD
     color: 'from-purple-400 to-pink-500',
     delay: '0.4s',
   },
@@ -130,3 +143,7 @@ export default function Features() {
     </div>
   )
 } 
+=======
+  },
+] 
+>>>>>>> b90fe229192e6d6552bcac8e8652a02826418983
